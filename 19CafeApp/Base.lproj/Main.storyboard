@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ez6-2G-o62">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_9CafeApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take it conveniently" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ko8-uy-raG">
+                                <rect key="frame" x="58" y="270" width="274" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="274" id="Bvf-E6-KGG"/>
+                                    <constraint firstAttribute="height" constant="27" id="YEf-Mb-yBp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="21"/>
+                                <color key="textColor" red="0.0" green="0.13977094856584105" blue="0.96841138601303101" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kim's Coffee" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R3o-AO-YKy">
+                                <rect key="frame" x="15" y="297" width="360" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="Ygh-dZ-xDk"/>
+                                    <constraint firstAttribute="width" constant="360" id="riC-9Z-tPl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="50"/>
+                                <color key="textColor" red="0.0" green="0.1397709486" blue="0.96841138599999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TrA-DD-449">
+                                <rect key="frame" x="95" y="431" width="200" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="JQl-L4-zfr"/>
+                                    <constraint firstAttribute="height" constant="36" id="SBc-gT-Hvm"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="커피">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shq-5K-unr">
+                                <rect key="frame" x="95" y="639" width="200" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="HFl-RI-C3I"/>
+                                    <constraint firstAttribute="height" constant="36" id="QfA-kV-MLu"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="매장찾기">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0oX-IK-Ohq">
+                                <rect key="frame" x="95" y="483" width="200" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Tw8-eU-x5Y"/>
+                                    <constraint firstAttribute="height" constant="36" id="a52-eX-zq6"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="음료">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tYl-an-Lbl">
+                                <rect key="frame" x="95" y="535" width="200" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="4YQ-1a-xOW"/>
+                                    <constraint firstAttribute="height" constant="36" id="9AK-Sm-51I"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="디저트">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4JT-N6-MCp">
+                                <rect key="frame" x="95" y="587" width="200" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="mtC-Sc-fWz"/>
+                                    <constraint firstAttribute="height" constant="36" id="qZO-1c-wa0"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="스페셜">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.96841138601303101" green="0.86114934737192617" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="shq-5K-unr" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="48c-PT-wVp"/>
+                            <constraint firstItem="ko8-uy-raG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DYY-l2-nBo"/>
+                            <constraint firstItem="R3o-AO-YKy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LJs-yN-WcJ"/>
+                            <constraint firstItem="0oX-IK-Ohq" firstAttribute="top" secondItem="TrA-DD-449" secondAttribute="bottom" constant="16" id="R2l-7K-nNh"/>
+                            <constraint firstItem="4JT-N6-MCp" firstAttribute="top" secondItem="tYl-an-Lbl" secondAttribute="bottom" constant="16" id="RjM-MX-1Sl"/>
+                            <constraint firstItem="tYl-an-Lbl" firstAttribute="top" secondItem="0oX-IK-Ohq" secondAttribute="bottom" constant="16" id="TNR-4e-GHP"/>
+                            <constraint firstItem="TrA-DD-449" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aen-0N-pIG"/>
+                            <constraint firstItem="tYl-an-Lbl" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="g73-Ht-56N"/>
+                            <constraint firstItem="TrA-DD-449" firstAttribute="top" secondItem="R3o-AO-YKy" secondAttribute="bottom" constant="64" id="gnn-be-qEG"/>
+                            <constraint firstItem="4JT-N6-MCp" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="hdX-2v-hhX"/>
+                            <constraint firstItem="R3o-AO-YKy" firstAttribute="firstBaseline" secondItem="ko8-uy-raG" secondAttribute="baseline" constant="52" symbolType="layoutAnchor" id="mPE-g1-gu5"/>
+                            <constraint firstItem="R3o-AO-YKy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-90" id="nbp-TY-WEh"/>
+                            <constraint firstItem="0oX-IK-Ohq" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="rud-Pq-Euz"/>
+                            <constraint firstItem="shq-5K-unr" firstAttribute="top" secondItem="4JT-N6-MCp" secondAttribute="bottom" constant="16" id="xCA-aN-fFG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="JfJ-Pa-TbZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="763.768115942029" y="117.85714285714285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="di2-AS-jWR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ez6-2G-o62" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zU0-z7-ezq">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="zZ2-c1-CXO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UeQ-iz-Era" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="98.550724637681171" y="117.85714285714285"/>
+        </scene>
+    </scenes>
+</document>
