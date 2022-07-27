@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DAB76F5289172C10020601A /* Menu1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB76F4289172C10020601A /* Menu1ViewController.swift */; };
+		2DAB76F728917C3F0020601A /* MyTableViewViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB76F628917C3F0020601A /* MyTableViewViewCell.swift */; };
 		2DCE625F28902FC800F4FA0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCE625E28902FC800F4FA0C /* AppDelegate.swift */; };
 		2DCE626128902FC800F4FA0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCE626028902FC800F4FA0C /* SceneDelegate.swift */; };
 		2DCE626328902FC800F4FA0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCE626228902FC800F4FA0C /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DAB76F4289172C10020601A /* Menu1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu1ViewController.swift; sourceTree = "<group>"; };
+		2DAB76F628917C3F0020601A /* MyTableViewViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewViewCell.swift; sourceTree = "<group>"; };
 		2DCE625B28902FC800F4FA0C /* 19CafeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 19CafeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCE625E28902FC800F4FA0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DCE626028902FC800F4FA0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 				2DCE626028902FC800F4FA0C /* SceneDelegate.swift */,
 				2DCE626228902FC800F4FA0C /* ViewController.swift */,
 				2DCE626428902FC800F4FA0C /* Main.storyboard */,
+				2DAB76F628917C3F0020601A /* MyTableViewViewCell.swift */,
+				2DAB76F4289172C10020601A /* Menu1ViewController.swift */,
 				2DCE626728902FCA00F4FA0C /* Assets.xcassets */,
 				2DCE626928902FCA00F4FA0C /* LaunchScreen.storyboard */,
 				2DCE626C28902FCA00F4FA0C /* Info.plist */,
@@ -88,7 +94,6 @@
 				F3D00FA9E0334198DA173684 /* Pods-19CafeApp.debug.xcconfig */,
 				D44A790ECF01E8A7C726F699 /* Pods-19CafeApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -207,7 +212,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DAB76F728917C3F0020601A /* MyTableViewViewCell.swift in Sources */,
 				2DCE626328902FC800F4FA0C /* ViewController.swift in Sources */,
+				2DAB76F5289172C10020601A /* Menu1ViewController.swift in Sources */,
 				2DCE625F28902FC800F4FA0C /* AppDelegate.swift in Sources */,
 				2DCE626128902FC800F4FA0C /* SceneDelegate.swift in Sources */,
 			);
