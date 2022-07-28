@@ -8,4 +8,5 @@ target '19CafeApp' do
   # Pods for 19CafeApp
   pod 'Toast-Swift', '~> 5.0.0'
   pod 'SDWebImage', '~> 5.0'
+  pod 'GoogleSignIn','~> 5.0.2'
 end
