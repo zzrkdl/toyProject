@@ -15,9 +15,12 @@
 //7. 카페앱 공식 앱을 참조
 
 import UIKit
+import FirebaseAuth
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var welcomeLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -29,6 +32,15 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         //네비게이션 바를 보이게 함
         self.navigationController?.isNavigationBarHidden = true
+        
+        // 현재 로그인한 사용자의 이메일 가져오기
+        let email = Auth.auth().currentUser?.email ?? "User"
+        
+        // 라벨에 이메일 뿌려주기
+        welcomeLabel.text = """
+        환영합니다.
+        \(email)님
+        """
     }
 
 

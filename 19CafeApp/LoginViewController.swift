@@ -22,17 +22,6 @@ class LoginViewController: UIViewController {
     @IBAction func googleLoginButtonTapped(_ sender: UIButton) {
         GIDSignIn.sharedInstance().signIn()
     }
-    @IBAction func logoutButtonTapped(_ sender: UIButton) {
-        let firebaseAuth = Auth.auth()
-        
-        do {
-            try firebaseAuth.signOut()
-            self.navigationController?.popToRootViewController(animated: true)
-        } catch let signOutError as NSError {
-            print("ERROR: signout \(signOutError.localizedDescription)")
-        }
-        
-        
-    }
+
     
 }
