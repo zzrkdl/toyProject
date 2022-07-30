@@ -217,6 +217,13 @@
                                     <action selector="emailJoinButton:" destination="9xe-5i-Mv2" eventType="touchUpInside" id="2EJ-l2-hNk"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HGH-Ua-E9q">
+                                <rect key="frame" x="183" y="480" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7AW-8S-z7v"/>
                         <color key="backgroundColor" red="0.96841138599999999" green="0.86114934740000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -230,6 +237,7 @@
                     <navigationItem key="navigationItem" id="JOE-oz-qzc"/>
                     <connections>
                         <outlet property="emailTextField" destination="jaI-5m-r2i" id="CXT-rM-zUh"/>
+                        <outlet property="errorMessageLabel" destination="HGH-Ua-E9q" id="2T9-xs-QL5"/>
                         <outlet property="passwordTextField" destination="A5X-Bn-shN" id="vlR-Xp-g3V"/>
                     </connections>
                 </viewController>
