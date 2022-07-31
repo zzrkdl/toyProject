@@ -42,6 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
        
+        //앱 구동시 맨처음 호출되는 함수
         //Firebase 초기화
         FirebaseApp.configure()
         

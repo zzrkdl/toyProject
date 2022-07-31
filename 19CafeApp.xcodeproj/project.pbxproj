@@ -10,13 +10,13 @@
 		2D63D7072892AB15001C5B9B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2D63D7062892AB15001C5B9B /* FirebaseAuth */; };
 		2D63D7092892B218001C5B9B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63D7082892B218001C5B9B /* LoginViewController.swift */; };
 		2D63D70D2892D671001C5B9B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D63D70C2892D671001C5B9B /* GoogleService-Info.plist */; };
-		2D63D70F2892DC35001C5B9B /* EmailJoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63D70E2892DC35001C5B9B /* EmailJoinViewController.swift */; };
 		2DAB76F5289172C10020601A /* Menu1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB76F4289172C10020601A /* Menu1ViewController.swift */; };
 		2DAB76F728917C3F0020601A /* MyTableViewViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB76F628917C3F0020601A /* MyTableViewViewCell.swift */; };
 		2DAB76F9289186140020601A /* Menu2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB76F8289186140020601A /* Menu2ViewController.swift */; };
 		2DAB76FB289186250020601A /* Menu3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB76FA289186250020601A /* Menu3ViewController.swift */; };
 		2DAB76FD289186350020601A /* Menu4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB76FC289186350020601A /* Menu4ViewController.swift */; };
 		2DAB76FF289186430020601A /* Menu5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAB76FE289186430020601A /* Menu5ViewController.swift */; };
+		2DCC5B612896BD9D00B6B7B0 /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCC5B602896BD9D00B6B7B0 /* JoinViewController.swift */; };
 		2DCE625F28902FC800F4FA0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCE625E28902FC800F4FA0C /* AppDelegate.swift */; };
 		2DCE626128902FC800F4FA0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCE626028902FC800F4FA0C /* SceneDelegate.swift */; };
 		2DCE626328902FC800F4FA0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCE626228902FC800F4FA0C /* ViewController.swift */; };
@@ -29,13 +29,13 @@
 /* Begin PBXFileReference section */
 		2D63D7082892B218001C5B9B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2D63D70C2892D671001C5B9B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		2D63D70E2892DC35001C5B9B /* EmailJoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailJoinViewController.swift; sourceTree = "<group>"; };
 		2DAB76F4289172C10020601A /* Menu1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu1ViewController.swift; sourceTree = "<group>"; };
 		2DAB76F628917C3F0020601A /* MyTableViewViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewViewCell.swift; sourceTree = "<group>"; };
 		2DAB76F8289186140020601A /* Menu2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu2ViewController.swift; sourceTree = "<group>"; };
 		2DAB76FA289186250020601A /* Menu3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu3ViewController.swift; sourceTree = "<group>"; };
 		2DAB76FC289186350020601A /* Menu4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu4ViewController.swift; sourceTree = "<group>"; };
 		2DAB76FE289186430020601A /* Menu5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu5ViewController.swift; sourceTree = "<group>"; };
+		2DCC5B602896BD9D00B6B7B0 /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
 		2DCE625B28902FC800F4FA0C /* 19CafeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 19CafeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCE625E28902FC800F4FA0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DCE626028902FC800F4FA0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,8 +87,8 @@
 				2DCE626028902FC800F4FA0C /* SceneDelegate.swift */,
 				2DCE626228902FC800F4FA0C /* ViewController.swift */,
 				2DCE626428902FC800F4FA0C /* Main.storyboard */,
+				2DCC5B602896BD9D00B6B7B0 /* JoinViewController.swift */,
 				2D63D7082892B218001C5B9B /* LoginViewController.swift */,
-				2D63D70E2892DC35001C5B9B /* EmailJoinViewController.swift */,
 				2DAB76F8289186140020601A /* Menu2ViewController.swift */,
 				2DAB76FA289186250020601A /* Menu3ViewController.swift */,
 				2DAB76FC289186350020601A /* Menu4ViewController.swift */,
@@ -260,9 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D63D70F2892DC35001C5B9B /* EmailJoinViewController.swift in Sources */,
 				2DAB76F728917C3F0020601A /* MyTableViewViewCell.swift in Sources */,
 				2DCE626328902FC800F4FA0C /* ViewController.swift in Sources */,
+				2DCC5B612896BD9D00B6B7B0 /* JoinViewController.swift in Sources */,
 				2DAB76F9289186140020601A /* Menu2ViewController.swift in Sources */,
 				2DAB76FB289186250020601A /* Menu3ViewController.swift in Sources */,
 				2DAB76FF289186430020601A /* Menu5ViewController.swift in Sources */,
