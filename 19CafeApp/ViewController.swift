@@ -51,7 +51,7 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
         let firebaseAuth = Auth.auth()
         do {
             try firebaseAuth.signOut()
-            self.navigationController?.popToRootViewController(animated: true)
+            self.showMainViewController()
         }catch let signOutError as NSError {
             print("SignOutError: %@", signOutError)
         }
@@ -61,9 +61,9 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
     // 메인 화면으로 이동하기
     private func showMainViewController() {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        let mainViewController = storyboard.instantiateViewController(withIdentifier: "StartVC")
-        mainViewController.modalPresentationStyle = .fullScreen
-        UIApplication.shared.windows.first?.rootViewController?.show(mainViewController, sender: nil)
+        let mainViewController = storyboard.instantiateViewController(withIdentifier: "FirstVC") as! LoginViewController
+        let view = UIApplication.shared.delegate as! AppDelegate
+        view.window?.rootViewController = mainViewController
     }
 
     
