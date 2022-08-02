@@ -61,9 +61,9 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
     // 메인 화면으로 이동하기
     private func showMainViewController() {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        let mainViewController = storyboard.instantiateViewController(withIdentifier: "FirstVC") as! LoginViewController
-        let view = UIApplication.shared.delegate as! AppDelegate
-        view.window?.rootViewController = mainViewController
+        let mainViewController = storyboard.instantiateViewController(withIdentifier: "FirstVC")
+        mainViewController.modalPresentationStyle = .fullScreen
+        UIApplication.shared.windows.first?.rootViewController?.show(mainViewController, sender: nil)
     }
 
     
