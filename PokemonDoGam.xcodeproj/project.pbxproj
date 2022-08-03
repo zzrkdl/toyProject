@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D146005289AB8E700CA8F70 /* PoketmonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D146004289AB8E700CA8F70 /* PoketmonCell.swift */; };
 		2DED04CD289974D000FD65B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DED04CC289974D000FD65B5 /* AppDelegate.swift */; };
 		2DED04CF289974D000FD65B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DED04CE289974D000FD65B5 /* SceneDelegate.swift */; };
 		2DED04D4289974D000FD65B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DED04D2289974D000FD65B5 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D146004289AB8E700CA8F70 /* PoketmonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoketmonCell.swift; sourceTree = "<group>"; };
 		2DED04C9289974D000FD65B5 /* PokemonDoGam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonDoGam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DED04CC289974D000FD65B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DED04CE289974D000FD65B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,9 +41,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D146003289AB8A500CA8F70 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D146004289AB8E700CA8F70 /* PoketmonCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2DED04C0289974D000FD65B5 = {
 			isa = PBXGroup;
 			children = (
+				2D146003289AB8A500CA8F70 /* Views */,
 				2DED04CB289974D000FD65B5 /* PokemonDoGam */,
 				2DED04CA289974D000FD65B5 /* Products */,
 			);
@@ -158,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DED04E42899783700FD65B5 /* PoketmonController.swift in Sources */,
+				2D146005289AB8E700CA8F70 /* PoketmonCell.swift in Sources */,
 				2DED04CD289974D000FD65B5 /* AppDelegate.swift in Sources */,
 				2DED04CF289974D000FD65B5 /* SceneDelegate.swift in Sources */,
 				2DED04E7289981D200FD65B5 /* Extensions.swift in Sources */,

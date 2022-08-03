@@ -7,6 +7,9 @@
 
 import UIKit
 
+let reuseableIdentifier = "poketmonncell"
+
+
 class PoketmonController : UICollectionViewController {
     // MARK : Init
     override func viewDidLoad() {
@@ -52,5 +55,18 @@ class PoketmonController : UICollectionViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.search, target: self, action: #selector(searchTapped))
         adjustColor()
         
+        collectionView.register(PoketmonCell.self, forCellWithReuseIdentifier: reuseableIdentifier)
+        
+    }
+}
+//MARK : collectionViewCell delegate functions
+extension PoketmonController {
+    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 6
+    }
+    
+    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseableIdentifier, for: indexPath) as! PoketmonCell
+        return cell
     }
 }
