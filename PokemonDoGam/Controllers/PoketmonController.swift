@@ -11,6 +11,8 @@ let reuseableIdentifier = "poketmonncell"
 
 
 class PoketmonController : UICollectionViewController {
+    
+    
     // MARK : Init
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,7 +48,7 @@ class PoketmonController : UICollectionViewController {
         collectionView.backgroundColor = .systemBackground
         let appearance = UINavigationBarAppearance()
                 appearance.configureWithTransparentBackground()
-                appearance.backgroundColor = UIColor.mainColor
+                appearance.backgroundColor = UIColor.mainColor  //Utils의 mainColor extension 한 값을 가져옴
                 appearance.titleTextAttributes = [.foregroundColor: UIColor.white]
                 navigationItem.standardAppearance = appearance
                 navigationItem.scrollEdgeAppearance = appearance
@@ -62,11 +64,22 @@ class PoketmonController : UICollectionViewController {
 //MARK : collectionViewCell delegate functions
 extension PoketmonController {
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 6
+        return 6        //한줄에 보여줄 갯수
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseableIdentifier, for: indexPath) as! PoketmonCell
         return cell
+    }
+}
+// MARK : UICollectionViewDelegateFlowLayout delegate functions
+extension PoketmonController:UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let width = (view.frame.width - 36) / 3     // 셀 사이즈 여기서 지정함
+        return CGSize(width: width, height: width)
+    }
+        
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        return UIEdgeInsets(top: 32, left: 8, bottom: 8, right: 8)     //셀들의 패딩
     }
 }
